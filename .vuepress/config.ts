@@ -30,7 +30,7 @@ export default defineUserConfig({
     navbar: [
       { text: "Home", link: "/" },
       { text: "Categories", link: "/categories/Go/1/" },
-      { text: "Tags", link: "/tags/tag1/1/" },
+      { text: "Tags", link: "/tags/Go/1/" },
       // {
       //   text: "Docs",
       //   children: [
