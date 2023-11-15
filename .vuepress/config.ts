@@ -31,6 +31,7 @@ export default defineUserConfig({
       { text: "Home", link: "/" },
       { text: "Categories", link: "/categories/Go/1/" },
       { text: "Tags", link: "/tags/Go/1/" },
+      { text: "Disk", link: "https://disk.beibeil.ink" },
       // {
       //   text: "Docs",
       //   children: [
