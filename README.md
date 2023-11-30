@@ -17,11 +17,8 @@ bannerBrand:
     - { icon: 'LogoGithub', link: 'https://github.com/Cal0rie' }
 blog:
   socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/recoluan' }
+    - { icon: 'LogoGithub', link: 'https://github.com/Cal0rie' }
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
-footer:
-  record: 闽ICP备2023001213号
-  recordLink: https://beian.miit.gov.cn/
 ---
