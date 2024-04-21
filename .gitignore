@@ -1,5 +1,17 @@
-.vuepress/.cache
-.vuepress/.temp
-.vuepress/dist
+# Nuxt dev/build outputs
+.nuxt
+.output
+# Node dependencies
 node_modules
-/.idea/vcs.xml
+# System files
+*.log
+# lock file
+pnpm-lock.yaml
+
+.nitro
+.cache
+.stylelintcache
+dist
+.DS_Store
+.vercel
+.vscode
