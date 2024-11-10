@@ -21,7 +21,4 @@ blog:
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
-footer:
-  record: 闽ICP备2023001213号
-  recordLink: https://beian.miit.gov.cn/
 ---

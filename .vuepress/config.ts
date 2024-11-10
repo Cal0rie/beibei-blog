@@ -31,7 +31,7 @@ export default defineUserConfig({
       { text: "Home", link: "/" },
       { text: "Categories", link: "/categories/Go/1/" },
       { text: "Tags", link: "/tags/Go/1/" },
-      { text: "Disk", link: "http://ddns.beibeil.ink:5244" },
+      { text: "Disk", link: "http://fz-disk-beibay.cc:81" },
       { text: "Picture", link: "https://picture.haaland.top:81" },
       // {
       //   text: "Docs",
