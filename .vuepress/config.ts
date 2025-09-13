@@ -1,12 +1,11 @@
 import { defineUserConfig } from "vuepress";
-import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
+import { viteBundler } from '@vuepress/bundler-vite';
 
 export default defineUserConfig({
   title: "北北Blog",
   description: "前端，Go，和一些小服务的技术笔记",
   theme: recoTheme({
-    style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     author: "Cal0rie",
     authorAvatar: "/head.png",
@@ -15,23 +14,23 @@ export default defineUserConfig({
     docsDir: "example",
     lastUpdatedText: "",
     // series 为原 sidebar
-    series: {
-      "/docs/theme-reco/": [
-        {
-          text: "module one",
-          children: ["home", "theme"],
-        },
-        {
-          text: "module two",
-          children: ["api", "plugin"],
-        },
-      ],
-    },
+    // series: {
+    //   "/blogs": [
+    //     {
+    //       text: "module one",
+    //       children: ["home", "theme"],
+    //     },
+    //     {
+    //       text: "module two",
+    //       children: ["api", "plugin"],
+    //     },
+    //   ],
+    // },
     navbar: [
       { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/Go/1/" },
-      { text: "Tags", link: "/tags/Go/1/" },
-      { text: "Disk", link: "http://fz-disk-beibay.cc:81" },
+      { text: "Categories", link: "/categories/qianduan/1" },
+      { text: "Tags", link: "/tags/uni-app/1" },
+      { text: "Disk", link: "https://fz-disk-beibay.cc:81" },
       { text: "Picture", link: "https://picture.haaland.top:81" },
       // {
       //   text: "Docs",
@@ -111,6 +110,10 @@ export default defineUserConfig({
   }),
   head: [
     ['link', { rel: 'icon', href: '/logo.ico' }]
-  ]
+  ],
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
   // debug: true,
 });

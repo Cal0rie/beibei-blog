@@ -11,7 +11,7 @@ bannerBrand:
   description: 前端，Go，和一些小服务的技术笔记。
   tagline: 记录，分享，整合折腾的过程和资源。
   buttons:
-    - { text: 看看文章, link: 'categories/Go/1/' }
+    - { text: 看看文章, link: '/categories/qianduan/1' }
 #    - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/Cal0rie' }
