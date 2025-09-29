@@ -9,7 +9,7 @@ bannerBrand:
   bgImage: '/bg.svg'
   title: 北北Blog
   description: 前端，Go，和一些小服务的技术笔记。
-  tagline: 记录，分享，整合折腾的过程和资源。
+  tagline: About Me, A front-end developer working for a well-known Internet company wants to do more than just front-end work. Mainly write Vue and wechat mini-programs.
   buttons:
     - { text: 看看文章, link: '/categories/qianduan/1' }
 #    - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
