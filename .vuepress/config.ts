@@ -31,7 +31,7 @@ export default defineUserConfig({
       { text: "Categories", link: "/categories/qianduan/1" },
       { text: "Tags", link: "/tags/uni-app/1" },
       { text: "Disk", link: "https://fz-disk.beibay.cc:81" },
-      { text: "Picture", link: "https://picture.haaland.top:81" },
+      { text: "Picture", link: "https://img.beibay.cc:81" },
       // {
       //   text: "Docs",
       //   children: [
