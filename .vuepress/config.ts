@@ -9,7 +9,7 @@ export default defineUserConfig({
     logo: "/logo.png",
     author: "Cal0rie",
     authorAvatar: "/head.png",
-    docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
+    docsRepo: "https://github.com/Cal0rie/beibei-blog",
     docsBranch: "main",
     docsDir: "example",
     lastUpdatedText: "",
