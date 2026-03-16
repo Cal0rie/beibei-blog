@@ -11,7 +11,7 @@ bannerBrand:
   description: 前端，Go，和一些小服务的技术笔记。
   tagline: About Me, A front-end developer working for a well-known Internet company wants to do more than just front-end work. Mainly write Vue and wechat mini-programs.
   buttons:
-    - { text: 看看文章, link: '/categories/qianduan/1' }
+    - { text: 看看文章, link: '/categories/qianduan/1.html' }
 #    - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/Cal0rie' }
